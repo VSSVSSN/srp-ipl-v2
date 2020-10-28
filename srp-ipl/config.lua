@@ -100,7 +100,7 @@ config.lomBankPowerBrokerPolished            = true  -- -1579.693, -564.8981, 10
 config.pillboxTrashed                        = false -- 356.8, -590.1, 43.3
 config.pillboxFixed                          = false -- 356.8, -590.1, 43.3
 config.pillboxDestroyed                      = false -- 356.8, -590.1, 43.3
-config.pillboxInterior                       = true  -- 356.8, -590.1, 43.3
+config.pillboxInterior                       = false -- 356.8, -590.1, 43.3
 -- Trevor/Trash or Tidy. Only choose one.
 config.trevorsTrailerTrash                   = false -- 1985.481, 3828.768, 32.5
 config.trevorsTrailerTidy                    = true  -- 1985.481, 3828.768, 32.5
@@ -886,6 +886,7 @@ config.apartmentOneSharpId                   = 229633
 config.apartmentOneMonochromeId              = 230401
 config.apartmentOneSeductiveId               = 231169
 config.apartmentOneRegalId                   = 231937
+config.apartmentOneAquaId                    = 146945
 -- Apartment Two
 config.apartmentTwoModernId                  = 227585
 config.apartmentTwoMoodyId                   = 228353
@@ -894,6 +895,7 @@ config.apartmentTwoSharpId                   = 229889
 config.apartmentTwoMonochromeId              = 230657
 config.apartmentTwoSeductiveId               = 231425
 config.apartmentTwoRegalId                   = 232193
+config.apartmentTwoAquaId                    = 232961
 -- Apartment Three
 config.apartmentThreeModernId                = 146945
 config.apartmentThreeMoodyId                 = 146949
@@ -902,6 +904,7 @@ config.apartmentThreeSharpId                 = 146945
 config.apartmentThreeMonochromeId            = 146945
 config.apartmentThreeSeductiveId             = 146945
 config.apartmentThreeRegalId                 = 146945
+config.apartmentThreeAquaId                  = 146945
 -- CEO
 -- Garage
 config.ceoGarageId                           = 252417
