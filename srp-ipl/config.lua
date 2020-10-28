@@ -100,7 +100,7 @@ config.lomBankPowerBrokerPolished            = true  -- -1579.693, -564.8981, 10
 config.pillboxTrashed                        = false -- 356.8, -590.1, 43.3
 config.pillboxFixed                          = false -- 356.8, -590.1, 43.3
 config.pillboxDestroyed                      = false -- 356.8, -590.1, 43.3
-config.pillboxInterior                       = false -- 356.8, -590.1, 43.3
+config.pillboxInterior                       = true  -- 356.8, -590.1, 43.3
 -- Trevor/Trash or Tidy. Only choose one.
 config.trevorsTrailerTrash                   = false -- 1985.481, 3828.768, 32.5
 config.trevorsTrailerTidy                    = true  -- 1985.481, 3828.768, 32.5
