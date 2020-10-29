@@ -183,11 +183,11 @@ config.ratonCanyonRiver                      = true  -- -1652.83, 4445.28, 2.52
 config.bahamaMamas                           = true  -- -1388.0, -618.420, 30.820
 config.redCarpet                             = true  -- 300.593, 199.759, 104.378
 config.ufo                                   = true  -- -2052.0, 3237, 1457.0/2490.5, 3774.8, 2414.0/501.53, 5593.86, 796.23
-config.northYankton                          = true  -- 3217.697, -4834.826, 111.815
+config.northYankton                          = false -- 3217.697, -4834.826, 111.815
 config.smugglers                             = true  -- -1266.0, -3014.0, -47.0
 config.doomsday                              = true  -- 483.2006225586, 4810.5405273438, -58.919288635254
 config.planeCrash                            = true  -- 2814.7, 4758.5, 50.0
-config.nightClubs                            = true  -- -1604.664, -3012.583, -80.0
+config.nightClubs                            = true  -- -1569.15, -3016.0, -74.41
 --------------------------------------------------------------------------------
 --[[
     Props
@@ -646,18 +646,18 @@ config.doomsdayFacilityTrophy                = true
 config.doomsdayFacilityMedicComplete         = true
 config.doomsdayFacilityMedicOutfit           = true
 config.doomsdayFacilityServerFarmOutfit      = true
-config.doomsdayColorDecal                    = 1
-config.doomsdayColorLounge                   = 1
-config.doomsdayColorCannon                   = 1
-config.doomsdayColorClutterColor             = 1
-config.doomsdayColorCrewEmblem               = 1
-config.doomsdayColorShell                    = 1
-config.doomsdayColorSecurity                 = 1
-config.doomsdayColorSleep                    = 1
-config.doomsdayColorTrophy                   = 1
-config.doomsdayColorMedicComplete            = 1
-config.doomsdayColorMedicOutfit              = 1
-config.doomsdayColorServerFarmOutfit         = 1
+config.doomsdayColorDecal                    = 255
+config.doomsdayColorLounge                   = 255
+config.doomsdayColorCannon                   = 255
+config.doomsdayColorClutterColor             = 255
+config.doomsdayColorCrewEmblem               = 255
+config.doomsdayColorShell                    = 255
+config.doomsdayColorSecurity                 = 255
+config.doomsdayColorSleep                    = 255
+config.doomsdayColorTrophy                   = 255
+config.doomsdayColorMedicComplete            = 255
+config.doomsdayColorMedicOutfit              = 255
+config.doomsdayColorServerFarmOutfit         = 255
 
 -- Smugglers Run Hangar - {-1266.0, -3014.0, -47.0}
 
@@ -732,20 +732,21 @@ config.penthouseSpaWater1                    = false
 config.penthouseSpaWater2                    = false
 config.penthouseSpaWater3                    = true
 config.penthouseSigns                        = true
-config.penthouseTintShellColor               = 2
-config.penthouseSpaxShellColor               = 2
-config.penthouseSpaShellColor                = 2
-config.penthouseSbtShellColor                = 2
-config.penthouseMbtShellColor                = 2
-config.penthousePattern1Color                = 2
-config.penthousePattern2Color                = 2
-config.penthousePattern3Color                = 2
-config.penthousePattern4Color                = 2
-config.penthousePattern5Color                = 2
-config.penthousePattern6Color                = 2
-config.penthousePattern7Color                = 2
-config.penthousePattern8Color                = 2
-config.penthousePattern9Color                = 2
+-- In my research I found that these can be set between 0 and 3. May be able to be set higher but I haven't found anything higher.
+config.penthouseTintShellColor               = 0
+config.penthouseSpaxShellColor               = 0
+config.penthouseSpaShellColor                = 0
+config.penthouseSbtShellColor                = 0
+config.penthouseMbtShellColor                = 0
+config.penthousePattern1Color                = 0
+config.penthousePattern2Color                = 0
+config.penthousePattern3Color                = 0
+config.penthousePattern4Color                = 0
+config.penthousePattern5Color                = 0
+config.penthousePattern6Color                = 0
+config.penthousePattern7Color                = 0
+config.penthousePattern8Color                = 0
+config.penthousePattern9Color                = 0
 -- Arena Wars - 
 config.crowdA                                = true
 config.crowdB                                = true
@@ -895,7 +896,7 @@ config.apartmentOneAquaId                    = 146945
 -- Apartment Two
 config.apartmentTwoModernId                  = 227585
 config.apartmentTwoMoodyId                   = 228353
-config.apartmentTwoVirbrantId                = 114641
+config.apartmentTwoVirbrantId                = 214641
 config.apartmentTwoSharpId                   = 229889
 config.apartmentTwoMonochromeId              = 230657
 config.apartmentTwoSeductiveId               = 231425
